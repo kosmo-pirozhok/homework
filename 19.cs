@@ -15,3 +15,4 @@ int number = new Random().Next(10,10000000);
                 Console.WriteLine($"{str} -> да");
             }
         }
+
