@@ -18,15 +18,15 @@ void ShowArray(int[] array)
 }
 
 int[] Array = CreateRandomArray(8, 100, 1000);
-int sum = 0;
+int count = 0;
 {
     ShowArray(Array);
         for (int i = 0; i < Array.Length; i++)
         {
             if (Array[i] % 2 == 0)
             {
-                sum = sum + Array[i];
+                count += 1;
             }
         }
-        Console.WriteLine(sum);
+        Console.WriteLine(count);
 }
